@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #ddd;
+}
+header{
+    background-color:rgb(9, 9, 65);
+    width: 100%;
+    height: 60px;
+}
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    text-shadow: 2px 3px 4px blue;
+}
+.menu ul{
+    margin: 0px;
+    background:transparent;
+    display: block;
+    float: right;
+    border-radius: 10px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ddd;
+}
+.menu ul li a:hover{
+    display: block;
+    color: white;
+    background: linear-gradient(blue,cyan);
+    box-shadow: inset 0px 0px 5px #000;
+    border-radius: 10px;
+}
+.banner{
+    background-image: url(keren.jpg);
+    text-align: center;
+    color: #ddd;
+    background-size: cover;
+    padding: 50px 0px 100px 0px;
+}
+.banner h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    opacity: 0.6;
+    text-shadow: 3px 5px 7px blue;
+}
+.banner h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+    opacity: 0.8;
+}
+.conten{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.conten h2{
+    font-size: 24px;
+    color: #000;
+
+}
+.conten p{
+    font-weight: normal;
+    font-size: 12px;
+    
+}
+footer{
+    display: flex;
+    height: 170px;
+    width: 100%;
+    background-color: #333;
+}
+.saran ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    
+}
+.saran ul li input{
+    border-radius: 3px;
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    color: white;
+}
+.saran .btn{
+    border-radius: 2px;
+    border-color: blue;
+    float: right;
+}
+.social-media{
+    align-items: center;
+    float: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-media h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.social-media p{
+    font-weight: normal;
+    font-size: 14px;
+}
+.social-media ul{
+    display:block;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;  
+}
+.social-media ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.social-media ul li a:hover{
+    display: block;
+    color: white;
+    background: linear-gradient(blue,cyan);
+    box-shadow: inset 0px 0px 5px #000;
+    border-radius: 3px;
+}
